@@ -9,6 +9,8 @@ This dataset hosted on [Kaggle](https://www.kaggle.com/paultimothymooney/chest-x
 ### 2. Tools
 The analysis was performed in Pytorch using Kaggle's free to use resources. The GPU had a weekly limit of 30 hours, which proved sufficient. A thing to watch out is to ensuring to log off GPU whenever it is not needed in order to conserve the usage. Also, more than 1 Kaggle session cannot be open with GPU usage.
 
+Jovian ML was used to commit changes. This is not a necessity for rest of the code to run.
+
 ### 3. EDA 
 The training data had 5216 x-rays with 3875 cases of pneumonia. The testing data had 624 images with 390 pneumonia cases. The validation data was a very small set of 16 images with 50-50 split of labels. Each image consisted of 3 channels for R,G,B and the pixel size was 224 * 224.
 
